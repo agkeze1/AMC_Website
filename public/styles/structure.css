@@ -6144,7 +6144,7 @@ body {
   .section_wrapper,
   .container,
   .four.columns {
-    width: 80% !important;
+    width: 90% !important;
   }
   .left-sidebar .items_group,
   .right-sidebar .items_group,
@@ -6882,7 +6882,7 @@ body {
   .section_wrapper,
   .container,
   .four.columns {
-    width: 380px !important;
+    width: 90% !important;
   }
   .with_aside .content_wrapper {
     width: 100%;

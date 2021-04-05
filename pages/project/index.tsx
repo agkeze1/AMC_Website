@@ -16,7 +16,10 @@ export default function Project() {
                       <TitleSm title="Master Plan" />
                     </div>
                     {/* One Second (1/2) Column */}
-                    <div className="column one-second column_column">
+                    <div
+                      className="column one-second column_column"
+                      style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                    >
                       <div className="column_attr">
                         <img src="content/builder/images/projects/master-plan.jpg" />
                       </div>
@@ -60,7 +63,10 @@ export default function Project() {
                       <TitleSm title="Residential Plots" />
                     </div>
                     {/* One Second (1/2) Column */}
-                    <div className="column one-second column_column">
+                    <div
+                      className="column one-second column_column"
+                      style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                    >
                       <div
                         className="column_attr"
                         style={{ padding: "50px 8% 10px" }}
@@ -118,16 +124,282 @@ export default function Project() {
                         </p>
                       </div>
                     </div>
+                  </div>
+
+                  {/* Commercial Plots */}
+                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
                     <div className="column one">
-                      <img
-                        src="content/builder/images/projects/res-plots-img.jpg"
-                        alt=""
-                        style={{
-                          width: "100%",
-                          border: "15px solid #ffba0040",
-                          borderRadius: "20px",
-                        }}
-                      />
+                      <TitleSm title="Commercial Plots" />
+                    </div>
+                    {/* One Second (1/2) Column */}
+                    <div
+                      className="column one-second column_column"
+                      style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                    >
+                      <div
+                        className="column_attr"
+                        style={{ padding: "50px 8% 10px" }}
+                      >
+                        <img src="content/builder/images/projects/commercial.jpg" />
+                      </div>
+                    </div>
+                    {/* One Second (1/2) Column */}
+                    <div className="column one-second column_column">
+                      <div className="column_attr">
+                        <h4 className="title-text">
+                          Commercial / Institutional
+                        </h4>
+                        <p className="p-text">
+                          The Commercial area of the community will be located
+                          outside the residential area towards the estate
+                          entrance, ensuring the serenity of the residential
+                          community is maintained, while still being accessible
+                          to non-residents.
+                        </p>
+                        <h4 className="title-text">
+                          The commercial area will consist of :
+                        </h4>
+                        <div className="textwidget">
+                          <ul className="footer_links txt-16">
+                            <li>Leisure</li>
+                            <li>Shopping</li>
+                            <li>Health facilities</li>
+                            <li>Educational facilities</li>
+                            <li>Religious facilities</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Recreational Area */}
+                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
+                    <div className="column one">
+                      <TitleSm title="Recreational Area" />
+                    </div>
+                    {/* One Second (1/2) Column */}
+                    <div className="column one-second column_column">
+                      <div
+                        className="column_attr"
+                        style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                      >
+                        <img src="content/builder/images/projects/Recreational.png" />
+                      </div>
+                    </div>
+                    {/* One Second (1/2) Column */}
+                    <div className="column one-second column_column">
+                      <div className="column_attr">
+                        <h4 className="title-text">Millennium Park</h4>
+                        <p className="p-text">
+                          AMC will boast a Millennium Park which will consist of
+                          various recreational facilities such as playgrounds,
+                          picnic areas, etc. It will also serve as an event
+                          center where residents can host external guests for
+                          various functions. There will be a jogging track
+                          surrounding the Millennium Park which will also serve
+                          as a platform for morning exercises, walking pets,
+                          etc.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Utility Area */}
+                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
+                    <div className="column one">
+                      <TitleSm title="Utility Area" />
+                    </div>
+                    {/* One Second (1/2) Column */}
+                    <div className="column one-second column_column">
+                      <div
+                        className="column_attr"
+                        style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                      >
+                        <img src="content/builder/images/projects/utility.jpg" />
+                      </div>
+                    </div>
+                    {/* One Second (1/2) Column */}
+                    <div className="column one-second column_column">
+                      <div className="column_attr">
+                        <h4 className="title-text">
+                          The utility area of Awka Millennium City would consist
+                          of the bulk infrastructures such as:
+                        </h4>
+                        <div className="textwidget">
+                          <ul className="footer_links txt-16">
+                            <li>Water pump station, reservoirs and tanks</li>
+                            <li>Power supply</li>
+                            <li>Industrial borehole & water treatment</li>
+                            <li>Central refuse collection</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Roads */}
+                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
+                    <div className="column one">
+                      <TitleSm title="Roads" />
+                    </div>
+                    {/* One Second (1/2) Column */}
+                    <div className="column one-second column_column">
+                      <div
+                        className="column_attr"
+                        style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                      >
+                        <img src="content/builder/images/projects/roads.png" />
+                      </div>
+                    </div>
+                    {/* One Second (1/2) Column */}
+                    <div className="column one-second column_column">
+                      <div className="column_attr">
+                        <h4 className="title-text">
+                          The community will be adequately serviced by a well
+                          planned road network, which will comprise :
+                        </h4>
+                        <div className="textwidget">
+                          <ul className="footer_links txt-16">
+                            <li>
+                              Sub Arterial roads: access link road from main
+                              highway
+                            </li>
+                            <li>Residential distribution road networks</li>
+                            <li>Residential Access Road Networks</li>
+                            <li>Residential close Road networks</li>
+                            <li>Pedestrian walkways etc.</li>
+                            <li>Street lights</li>
+                            <li>Storm water drainage</li>
+                          </ul>
+                        </div>
+                        <p className="p-text">
+                          These various road networks will ensure well
+                          structured and organized traffic flow movement within
+                          the community.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Homes */}
+                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
+                    <div className="column one">
+                      <TitleSm title="Homes" />
+                    </div>
+                    {/* One  Column */}
+                    <div className="column one column_column">
+                      <div className="column_attr">
+                        <h4 className="title-text">Prototypes</h4>
+                        <p className="p-text">
+                          As a supplement to the provision of serviced plots,
+                          M-P Infrastructure will also provide the option of
+                          constructing residential buildings for potential
+                          clients/residents who are interested. We will be
+                          providing these services under the following
+                          categories/specifications.
+                        </p>
+                        <div className="textwidget">
+                          <ul className="footer_links txt-16">
+                            <li>
+                              Sub Arterial roads: access link road from main
+                              highway
+                            </li>
+                            <li>2 bed apartment building.</li>
+                            <li>4 bed terrace houses.</li>
+                            <li>4 bed detached duplex.</li>
+                            <li> bed villa.</li>
+                          </ul>
+                        </div>
+                        <br />
+                      </div>
+                      <div className="column one">
+                        <p className="p-text">
+                          The images below are the architectural designs of the
+                          buildings that will be made available for
+                          construction.
+                        </p>
+
+                        <div>
+                          <h4 className="title-text">
+                            2 BED APARTMENT BUILDING
+                          </h4>
+                          <br />
+                        </div>
+                        {/* One Third(1/3) Column */}
+                        <div className="column one-third column_column">
+                          <div className="column_attr align_center">
+                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
+                              <img
+                                className="scale-with-grid"
+                                src="content/builder/images/projects/2-bed-1.jpg"
+                                style={{ objectFit: "cover" }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* One Third(1/3) Column */}
+                        <div className="column one-third column_column">
+                          <div className="column_attr align_center">
+                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
+                              <img
+                                className="scale-with-grid"
+                                src="content/builder/images/projects/2-bed-2.jpg"
+                                style={{ objectFit: "cover" }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* One Third(1/3) Column */}
+                        <div className="column one-third column_column">
+                          <div className="column_attr align_center">
+                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
+                              <img
+                                className="scale-with-grid"
+                                src="content/builder/images/projects/2-bed-3.jpg"
+                                style={{ objectFit: "cover" }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="column one">
+                        {/* One Third(1/3) Column */}
+                        <div className="column one-third">
+                          <div className="column_attr align_center">
+                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
+                              <img
+                                className="scale-with-grid"
+                                src="content/builder/images/projects/2-bed-4.jpg"
+                                style={{ objectFit: "cover" }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* One Third(1/3) Column */}
+                        <div className="column one-third">
+                          <div className="column_attr align_center">
+                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
+                              <img
+                                className="scale-with-grid"
+                                src="content/builder/images/projects/2-bed-5.jpg"
+                                style={{ objectFit: "cover" }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        {/* One Third(1/3) Column */}
+                        <div className="column one-third">
+                          <div className="column_attr align_center">
+                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
+                              <img
+                                className="scale-with-grid"
+                                src="content/builder/images/projects/2-bed-6.jpg"
+                                style={{ objectFit: "cover" }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
