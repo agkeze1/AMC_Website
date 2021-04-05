@@ -5,10 +5,10 @@ export const Header = () => {
         <nav id="overlay-menu" className="menu-main-menu-container">
           <ul id="menu-main-menu" className="overlay-menu">
             <li className="current_page_item">
-              <a href="index-builder.html">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="content/builder/about-us.html">Project</a>
+              <a href="/project">Projects</a>
             </li>
             <li>
               <a href="content/builder/our-realizations.html">The Team</a>
@@ -50,6 +50,7 @@ export const Header = () => {
 
       {/* Logo */}
       <div
+        id="logo-container"
         style={{
           backgroundColor: "transparent",
           width: "50px",
@@ -59,7 +60,7 @@ export const Header = () => {
           zIndex: 1,
         }}
       >
-        <a href="index-builder.html" title="BeBuilder - BeTheme">
+        <a href="/" title="BeBuilder - BeTheme">
           <img src="images/logo.png" style={{ width: "100%" }} />
         </a>
       </div>

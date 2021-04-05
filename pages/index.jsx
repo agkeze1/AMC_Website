@@ -101,9 +101,10 @@ export default function Home() {
                     {/* One Second (1/2) Column */}
                     <div className="column one-second column_column">
                       <div className="column_attr">
-                        <h5
+                        <p
                           style={{
                             fontWeight: 500,
+                            fontSize: "16px",
                             color: "#444",
                             lineHeight: "2",
                             textAlign: "justify",
@@ -128,7 +129,7 @@ export default function Home() {
                           components of the development, AMC is poised to become
                           the first smart city in the South East upon
                           completion.
-                        </h5>
+                        </p>
                       </div>
                     </div>
                   </div>

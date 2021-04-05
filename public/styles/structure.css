@@ -1726,7 +1726,6 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 }
 #Header .secondary-menu li ul li a:hover {
   color: #5f5f5f;
-  background: rgba(255, 255, 255, 0.8);
 }
 
 /* #Header styles
@@ -2211,7 +2210,6 @@ body.header-stack:not(.template-slider) #Header {
 ================================================== */
 
 #Subheader {
-  background-color: rgba(0, 0, 0, 0.02);
   background-position: center top;
   background-repeat: no-repeat;
   padding: 30px 0;
@@ -2251,7 +2249,7 @@ body.header-stack:not(.template-slider) #Header {
   opacity: 0.4;
   filter: alpha(opacity=40);
 }
-#Subheader:after {
+/* #Subheader:after {
   content: "";
   height: 3px;
   width: 100%;
@@ -2261,7 +2259,7 @@ body.header-stack:not(.template-slider) #Header {
   bottom: -3px;
   z-index: 1;
   background: url(../images/box_shadow.png) repeat-x left top;
-}
+} */
 #Subheader ul.woocommerce-breadcrumb li:last-child span {
   display: none;
 }
