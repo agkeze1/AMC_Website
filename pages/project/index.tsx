@@ -3,7 +3,7 @@ import { TitleSm } from "../../components/TitleSm";
 
 export default function Project() {
   return (
-    <Layout title="Home" bannerText="Projects">
+    <Layout title="Projects" bannerText="Projects">
       <div id="Content">
         <div className="content_wrapper clearfix">
           <div className="sections_group">
