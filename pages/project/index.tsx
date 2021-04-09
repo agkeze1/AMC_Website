@@ -11,17 +11,27 @@ export default function Project() {
               <div className="section sections_style_0">
                 <div className="section_wrapper clearfix">
                   {/* Master Plan */}
-                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
+                  <div
+                    className="items_group clearfix"
+                    style={{ borderBottom: "1px solid lightgrey" }}
+                  >
                     <div className="column one">
                       <TitleSm title="Master Plan" />
                     </div>
                     {/* One Second (1/2) Column */}
                     <div
                       className="column one-second column_column"
-                      style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                      style={{
+                        backgroundColor: "#ffba00",
+                        padding: "15px",
+                        borderRadius: "40px 0 40px 0",
+                      }}
                     >
                       <div className="column_attr">
-                        <img src="content/builder/images/projects/master-plan.jpg" />
+                        <img
+                          src="content/builder/images/projects/master-plan.jpg"
+                          style={{ borderRadius: "30px 0 30px 0" }}
+                        />
                       </div>
                     </div>
                     {/* One Second (1/2) Column */}
@@ -58,20 +68,32 @@ export default function Project() {
                   </div>
 
                   {/* Residential Plots */}
-                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
+                  <div
+                    className="items_group clearfix"
+                    style={{ borderBottom: "1px solid lightgrey" }}
+                  >
                     <div className="column one">
                       <TitleSm title="Residential Plots" />
                     </div>
                     {/* One Second (1/2) Column */}
                     <div
                       className="column one-second column_column"
-                      style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                      style={{
+                        backgroundColor: "#ffba00",
+                        padding: "15px",
+                        borderRadius: "40px 0 40px 0",
+                      }}
                     >
                       <div
                         className="column_attr"
                         style={{ padding: "50px 8% 10px" }}
                       >
-                        <img src="content/builder/images/projects/residential-plot.png" />
+                        <img
+                          src="content/builder/images/projects/residential-plot.png"
+                          style={{
+                            borderRadius: "30px 0 30px 0",
+                          }}
+                        />
                       </div>
                     </div>
                     {/* One Second (1/2) Column */}
@@ -127,20 +149,32 @@ export default function Project() {
                   </div>
 
                   {/* Commercial Plots */}
-                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
+                  <div
+                    className="items_group clearfix"
+                    style={{ borderBottom: "1px solid lightgrey" }}
+                  >
                     <div className="column one">
                       <TitleSm title="Commercial Plots" />
                     </div>
                     {/* One Second (1/2) Column */}
                     <div
                       className="column one-second column_column"
-                      style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                      style={{
+                        backgroundColor: "#ffba00",
+                        padding: "15px",
+                        borderRadius: "40px 0 40px 0",
+                      }}
                     >
                       <div
                         className="column_attr"
                         style={{ padding: "50px 8% 10px" }}
                       >
-                        <img src="content/builder/images/projects/commercial.jpg" />
+                        <img
+                          src="content/builder/images/projects/commercial.jpg"
+                          style={{
+                            borderRadius: "30px 0 30px 0",
+                          }}
+                        />
                       </div>
                     </div>
                     {/* One Second (1/2) Column */}
@@ -173,7 +207,10 @@ export default function Project() {
                   </div>
 
                   {/* Recreational Area */}
-                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
+                  <div
+                    className="items_group clearfix"
+                    style={{ borderBottom: "1px solid lightgrey" }}
+                  >
                     <div className="column one">
                       <TitleSm title="Recreational Area" />
                     </div>
@@ -181,7 +218,11 @@ export default function Project() {
                     <div className="column one-second column_column">
                       <div
                         className="column_attr"
-                        style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                        style={{
+                          backgroundColor: "#ffba00",
+                          padding: "15px",
+                          borderRadius: "40px 0 40px 0",
+                        }}
                       >
                         <img src="content/builder/images/projects/Recreational.png" />
                       </div>
@@ -205,7 +246,10 @@ export default function Project() {
                   </div>
 
                   {/* Utility Area */}
-                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
+                  <div
+                    className="items_group clearfix"
+                    style={{ borderBottom: "1px solid lightgrey" }}
+                  >
                     <div className="column one">
                       <TitleSm title="Utility Area" />
                     </div>
@@ -213,9 +257,18 @@ export default function Project() {
                     <div className="column one-second column_column">
                       <div
                         className="column_attr"
-                        style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                        style={{
+                          backgroundColor: "#ffba00",
+                          padding: "15px",
+                          borderRadius: "40px 0 40px 0",
+                        }}
                       >
-                        <img src="content/builder/images/projects/utility.jpg" />
+                        <img
+                          src="content/builder/images/projects/utility.jpg"
+                          style={{
+                            borderRadius: "30px 0 30px 0",
+                          }}
+                        />
                       </div>
                     </div>
                     {/* One Second (1/2) Column */}
@@ -238,7 +291,10 @@ export default function Project() {
                   </div>
 
                   {/* Roads */}
-                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
+                  <div
+                    className="items_group clearfix"
+                    style={{ borderBottom: "1px solid lightgrey" }}
+                  >
                     <div className="column one">
                       <TitleSm title="Roads" />
                     </div>
@@ -246,9 +302,18 @@ export default function Project() {
                     <div className="column one-second column_column">
                       <div
                         className="column_attr"
-                        style={{ backgroundColor: "#ffba00", padding: "15px" }}
+                        style={{
+                          backgroundColor: "#ffba00",
+                          padding: "15px",
+                          borderRadius: "40px 0 40px 0",
+                        }}
                       >
-                        <img src="content/builder/images/projects/roads.png" />
+                        <img
+                          src="content/builder/images/projects/roads.png"
+                          style={{
+                            borderRadius: "30px 0 30px 0",
+                          }}
+                        />
                       </div>
                     </div>
                     {/* One Second (1/2) Column */}
@@ -282,7 +347,10 @@ export default function Project() {
                   </div>
 
                   {/* Homes */}
-                  <div className="items_group clearfix box-shadow2 p-50 br-10 mb-10">
+                  <div
+                    className="items_group clearfix"
+                    style={{ borderBottom: "1px solid lightgrey" }}
+                  >
                     <div className="column one">
                       <TitleSm title="Homes" />
                     </div>
@@ -319,85 +387,158 @@ export default function Project() {
                           construction.
                         </p>
 
+                        {/* Two bedroom apartment building */}
                         <div>
                           <h4 className="title-text">
                             2 BED APARTMENT BUILDING
                           </h4>
                           <br />
                         </div>
-                        {/* One Third(1/3) Column */}
-                        <div className="column one-third column_column">
-                          <div className="column_attr align_center">
-                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
-                              <img
-                                className="scale-with-grid"
-                                src="content/builder/images/projects/2-bed-1.jpg"
-                                style={{ objectFit: "cover" }}
-                              />
-                            </div>
-                          </div>
+                        <div
+                          style={{
+                            backgroundColor: "#fde8ae",
+                            padding: "8px 6px 6px",
+                            borderRadius: "10px",
+                          }}
+                        >
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/2-bed-1.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/2-bed-2.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/2-bed-3.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/2-bed-4.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/2-bed-5.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/2-bed-6.jpg"
+                          />
                         </div>
-                        {/* One Third(1/3) Column */}
-                        <div className="column one-third column_column">
-                          <div className="column_attr align_center">
-                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
-                              <img
-                                className="scale-with-grid"
-                                src="content/builder/images/projects/2-bed-2.jpg"
-                                style={{ objectFit: "cover" }}
-                              />
-                            </div>
-                          </div>
+
+                        {/* Four bedroom detached duplex */}
+                        <div style={{ marginTop: "5%" }}>
+                          <h4 className="title-text">4 BED DETACHED DUPLEX</h4>
+                          <br />
                         </div>
-                        {/* One Third(1/3) Column */}
-                        <div className="column one-third column_column">
-                          <div className="column_attr align_center">
-                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
-                              <img
-                                className="scale-with-grid"
-                                src="content/builder/images/projects/2-bed-3.jpg"
-                                style={{ objectFit: "cover" }}
-                              />
-                            </div>
-                          </div>
+                        <div
+                          style={{
+                            backgroundColor: "#fde8ae",
+                            padding: "8px 6px 6px",
+                            borderRadius: "10px",
+                          }}
+                        >
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-1.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-2.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-3.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-4.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-5.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-6.jpg"
+                          />
                         </div>
-                      </div>
-                      <div className="column one">
-                        {/* One Third(1/3) Column */}
-                        <div className="column one-third">
-                          <div className="column_attr align_center">
-                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
-                              <img
-                                className="scale-with-grid"
-                                src="content/builder/images/projects/2-bed-4.jpg"
-                                style={{ objectFit: "cover" }}
-                              />
-                            </div>
-                          </div>
+
+                        {/* Four bedroom terrace houses */}
+                        <div style={{ marginTop: "5%" }}>
+                          <h4 className="title-text">4 BED TERRACE HOUSES</h4>
+                          <br />
                         </div>
-                        {/* One Third(1/3) Column */}
-                        <div className="column one-third">
-                          <div className="column_attr align_center">
-                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
-                              <img
-                                className="scale-with-grid"
-                                src="content/builder/images/projects/2-bed-5.jpg"
-                                style={{ objectFit: "cover" }}
-                              />
-                            </div>
-                          </div>
+                        <div
+                          style={{
+                            backgroundColor: "#fde8ae",
+                            padding: "8px 6px 6px",
+                            borderRadius: "10px",
+                          }}
+                        >
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-t-1.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-t-2.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-t-3.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-t-4.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-t-5.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/4-bed-t-6.jpg"
+                          />
                         </div>
-                        {/* One Third(1/3) Column */}
-                        <div className="column one-third">
-                          <div className="column_attr align_center">
-                            <div className="image_frame image_item no_link scale-with-grid alignnone no_border">
-                              <img
-                                className="scale-with-grid"
-                                src="content/builder/images/projects/2-bed-6.jpg"
-                                style={{ objectFit: "cover" }}
-                              />
-                            </div>
-                          </div>
+
+                        {/* Five bedroom villa */}
+                        <div style={{ marginTop: "5%" }}>
+                          <h4 className="title-text">5 BED VILLA</h4>
+                          <br />
+                        </div>
+                        <div
+                          style={{
+                            backgroundColor: "#fde8ae",
+                            padding: "8px 6px 6px",
+                            borderRadius: "10px",
+                          }}
+                        >
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/5-bed-1.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/5-bed-2.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/5-bed-3.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/5-bed-4.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/5-bed-5.jpg"
+                          />
+                          <img
+                            className="scale-with-grid p-image"
+                            src="content/builder/images/projects/5-bed-6.jpg"
+                          />
                         </div>
                       </div>
                     </div>

@@ -28,18 +28,6 @@ export const Header = () => {
             <li>
               <a href="content/builder/contact-us.html">Contact</a>
             </li>
-            <li>
-              <a target="_blank" href="http://bit.ly/1M6lijQ">
-                <span
-                  style={{
-                    padding: "0px",
-                    color: "#22467e",
-                  }}
-                >
-                  Buy now
-                </span>
-              </a>
-            </li>
           </ul>
         </nav>
       </div>

@@ -73,65 +73,57 @@ export default function Home() {
                   backgroundColor: "#fcfcfc",
                 }}
               >
-                <div className="section_wrapper clearfix">
-                  <div className="items_group clearfix">
-                    {/* One Sixth (1/6) Column */}
-                    <div className="column one-sixth column_placeholder">
-                      <div className="placeholder">&nbsp;</div>
-                    </div>
-                    {/* One Fourth (1/4) Column */}
-                    <div className="column one-fourth column_column">
-                      <div className="column_attr">
-                        <h2>
-                          About
-                          <br />
-                          Awka Millennium City
-                        </h2>
-                        <br />
-                        <hr
-                          style={{
-                            width: "60px",
-                            height: "8px",
-                            background: "#ffba00",
-                            float: "left",
-                          }}
-                        />
-                      </div>
-                    </div>
-                    {/* One Second (1/2) Column */}
-                    <div className="column one-second column_column">
-                      <div className="column_attr">
-                        <p
-                          style={{
-                            fontWeight: 500,
-                            fontSize: "16px",
-                            color: "#444",
-                            lineHeight: "2",
-                            textAlign: "justify",
-                          }}
-                        >
-                          AMC is a Premium multi-nucleic real estate development
-                          that is slated to redefine the concept of urban living
-                          within Awka, Anambra state. The developer (M-P
-                          Infrastructure Ltd) envisions a new residential layout
-                          whose development will boost economic activity while
-                          increasing the quality of housing in the state capital
-                          territory. The commercial avenue, cascaded to include
-                          developments such as worship centres, recreational
-                          establishments, offices, malls, restaurants etc.
-                          enables AMC facilitate the concept of Live, work &
-                          play as a one stop destination. AMC will be
-                          underpinned by quality municipal infrastructure,
-                          seamlessly integrated via the adoption of technology,
-                          that will guarantee seamless provision of requisite
-                          amenities needed to sustain a good quality lifestyle.
-                          Owing to its adoption of technology in various
-                          components of the development, AMC is poised to become
-                          the first smart city in the South East upon
-                          completion.
-                        </p>
-                      </div>
-                    </div>
+                <div
+                  className="section_wrapper clearfix"
+                  style={{ padding: "0 200px" }}
+                >
+                  <div style={{}}>
+                    <h2>
+                      About
+                      <br />
+                      Awka Millennium City
+                    </h2>
+                    <br />
+                    <hr
+                      style={{
+                        width: "60px",
+                        height: "8px",
+                        background: "#ffba00",
+                        float: "left",
+                      }}
+                    />
+                    <br />
+                    <br />
+                  </div>
+                  <div>
+                    <p
+                      style={{
+                        fontWeight: 500,
+                        fontSize: "16px",
+                        color: "#444",
+                        lineHeight: "2",
+                        textAlign: "justify",
+                      }}
+                    >
+                      AMC is a Premium multi-nucleic real estate development
+                      that is slated to redefine the concept of urban living
+                      within Awka, Anambra state. The developer (M-P
+                      Infrastructure Ltd) envisions a new residential layout
+                      whose development will boost economic activity while
+                      increasing the quality of housing in the state capital
+                      territory. The commercial avenue, cascaded to include
+                      developments such as worship centres, recreational
+                      establishments, offices, malls, restaurants etc. enables
+                      AMC facilitate the concept of Live, work & play as a one
+                      stop destination. AMC will be underpinned by quality
+                      municipal infrastructure, seamlessly integrated via the
+                      adoption of technology, that will guarantee seamless
+                      provision of requisite amenities needed to sustain a good
+                      quality lifestyle. Owing to its adoption of technology in
+                      various components of the development, AMC is poised to
+                      become the first smart city in the South East upon
+                      completion.
+                    </p>
                   </div>
                 </div>
               </div>
