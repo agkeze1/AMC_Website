@@ -1,7 +1,7 @@
 import { Layout } from "../../components/Layout";
 import { TitleSm } from "../../components/TitleSm";
 
-export default function Project() {
+const Project = () => {
   return (
     <Layout title="Projects" bannerText="Projects">
       <div id="Content">
@@ -551,4 +551,6 @@ export default function Project() {
       </div>
     </Layout>
   );
-}
+};
+
+export default Project;
