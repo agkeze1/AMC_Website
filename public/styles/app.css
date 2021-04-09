@@ -247,6 +247,18 @@
   padding: 10vh;
 }
 
+.prop-container {
+  width: 25%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.prop {
+  background-color: #ffba00;
+  height: 200px;
+  border-radius: 20px;
+}
+
 @media screen and (min-width: 1680px) {
   .team-image {
     width: 60% !important;

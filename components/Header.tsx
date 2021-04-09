@@ -14,10 +14,10 @@ export const Header = () => {
               <a href="/the-team">The Team</a>
             </li>
             <li>
-              <a href="content/builder/offer.html">Own a Property</a>
+              <a href="/own-a-property">Own a Property</a>
             </li>
             <li>
-              <a href="content/builder/offer.html">News</a>
+              <a href="/news">News</a>
             </li>
             <li>
               <a href="content/builder/offer.html">Site Update</a>
@@ -31,7 +31,11 @@ export const Header = () => {
           </ul>
         </nav>
       </div>
-      <a className="overlay-menu-toggle" href="#">
+      <a
+        className="overlay-menu-toggle"
+        href="#"
+        style={{ borderRadius: "20px 0" }}
+      >
         <i className="open icon-menu"></i>
         <i className="close icon-cancel"></i>
       </a>

@@ -136,7 +136,11 @@ export default function Home() {
                     <div className="column one-fourth column_column">
                       <div
                         className="column_attr"
-                        style={{ backgroundColor: "#efefef" }}
+                        style={{
+                          backgroundColor: "#efefef",
+                          borderRadius: "40px 0",
+                          borderRight: "10px solid #ffba005c",
+                        }}
                       >
                         <div style={{ padding: "30px" }}>
                           <h2>
@@ -165,12 +169,6 @@ export default function Home() {
                             hectares of Land.
                           </p>
                           <hr className="no_line hrmargin_b_30" />
-                          <a
-                            href="content/builder/our-realizations.html"
-                            style={{ fontSize: "140%", color: "#071323" }}
-                          >
-                            View City Plan
-                          </a>
                         </div>
                       </div>
                     </div>
