@@ -12,6 +12,7 @@ const OwnAProperty = () => {
             <a
               href="/content/builder/forms/individual-form.pdf"
               target="_blank"
+              title="Click to view form"
             >
               {/* One third (1/3) Column */}
               <div className="column one-fourth column_list infrastructure">
@@ -30,7 +31,11 @@ const OwnAProperty = () => {
                 </div>
               </div>
             </a>
-            <a href="/content/builder/forms/corporate-form.pdf" target="_blank">
+            <a
+              href="/content/builder/forms/corporate-form.pdf"
+              target="_blank"
+              title="Click to view form"
+            >
               <div className="column one-fourth column_list infrastructure">
                 <div className="list_item lists_2 clearfix">
                   <div style={{ textAlign: "center", paddingTop: "20px" }}>
@@ -50,6 +55,7 @@ const OwnAProperty = () => {
             <a
               href="/content/builder/forms/brochure-download.pdf"
               target="_blank"
+              title="Click to download brochure"
             >
               <div className="column one-fourth column_list infrastructure">
                 <div className="list_item lists_2 clearfix">
@@ -67,7 +73,11 @@ const OwnAProperty = () => {
                 </div>
               </div>
             </a>
-            <a href="/content/builder/forms/price-schedule.pdf" target="_blank">
+            <a
+              href="/content/builder/forms/price-schedule.pdf"
+              target="_blank"
+              title="Click to view price schedule"
+            >
               <div className="column one-fourth column_list infrastructure">
                 <div className="list_item lists_2 clearfix">
                   <div style={{ textAlign: "center", paddingTop: "20px" }}>

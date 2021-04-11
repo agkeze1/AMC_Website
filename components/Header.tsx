@@ -34,7 +34,7 @@ export const Header = () => {
       <a
         className="overlay-menu-toggle"
         href="#"
-        style={{ borderRadius: "20px 0" }}
+        style={{ borderRadius: "20px 0", border: "1px solid #ffba00" }}
       >
         <i className="open icon-menu"></i>
         <i className="close icon-cancel"></i>

@@ -259,6 +259,43 @@
   border-radius: 20px;
 }
 
+.btn-read-more {
+  border: 1px solid #ffba00;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 50px;
+  color: #e0a916 !important;
+  display: block;
+}
+
+.btn-read-more:hover {
+  font-weight: bold;
+  background-color: #ffba002b;
+}
+
+.news-container {
+  padding: 0 50px !important;
+}
+
+.news {
+  width: 33.3333% !important;
+  display: inline-block !important;
+  padding: 5px !important;
+}
+
+.news-r {
+  padding: 0;
+  overflow: hidden;
+}
+
+.news-r-1 {
+  height: 80vh !important;
+}
+
+.news-r-2 {
+  height: 100vh !important;
+}
+
 @media screen and (min-width: 1680px) {
   .team-image {
     width: 60% !important;
@@ -280,6 +317,17 @@
   }
   .p-image {
     width: 50% !important;
+  }
+  .news {
+    width: 50% !important;
+  }
+  .news-r-1 {
+    height: 85vh !important;
+    overflow: scroll;
+  }
+  .news-r-2 {
+    height: 85vh !important;
+    overflow: scroll;
   }
 }
 
@@ -327,5 +375,19 @@
   }
   .team-title-container {
     padding: 3vh 10vh 0 10vh;
+  }
+  .news {
+    width: 100% !important;
+  }
+  .news-r-1 {
+    height: auto !important;
+    overflow: scroll;
+  }
+  .news-r-2 {
+    height: auto !important;
+    overflow: scroll;
+  }
+  .news-container {
+    padding: 0 10px !important;
   }
 }
